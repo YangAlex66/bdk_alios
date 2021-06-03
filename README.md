@@ -1,24 +1,32 @@
-编译方法： 
-./build.sh example smart_outlet uno-91h SINGAPORE ONLINE 0
+# Beken Development Kit on AliOS
 
-第一个参数为help时，输出build.sh当前默认编译参数.
-第一个参数为clean时，执行SDK目录下example目录删除，并从仓库恢复，下次编译时，会重新完整编译整个SDK及应用.
-第一个参数在Products目录下找不到对应的文件夹时，会继续从Living_SDK/example目录下找，如能找到，则执行编译，成功后，复制编译结果到out目录。
+Welcome to BDK AliOS!
 
-要实现不输入参数，执行./build.sh编译输出需要的应用固件，可更改以下默认参数：
-default_type="example"
-default_app="smart_outlet"
-default_board="uno-91h"
-default_region=SINGAPORE
-default_env=ONLINE
-default_debug=0
-default_args=""
-以上参数分别对应：
-产品类型、应用名称、模组型号、连云区域、连云环境、debug、其他参数（可不填，需要时把参数加到双引号内）。
+The BDK AliOS integrates Beken Software Development Kit and the AliOS, which is aimed for IoT applications that based on Ali Eco system.
 
+The BDK AliOS supports multiple Beken chips, including [BK7231N-TODO-link](http://www.bekencorp.com/) and [BK7231U-TODO-link](http://www.bekencorp.com/).
 
-当前已支持的board：
-RDA5981A: 	hf-lpb130 hf-lpb135 hf-lpt230 hf-lpt130 uno-91h
-moc108: 	mk3060 mk3061
-rtl8710bn: 	mk3080 mk3092
-asr5501: 	mx1270
+# Getting Started
+
+Here is the getting started guides:
+
+ - step1, purchase your board on [Board-link-TODO](http://www.bekencorp.com/) if you don't have the demo board.
+ - step2, download the BDK AliOS code on github [BDK ALIOS](https://github.com/bekencorp/bdk_alios). For the non-github users,
+download the BDK AliOS directly on [TODO-Download-Center-link](http://www.bekencorp.com/).
+ - step3, read the [User Manual](https://github.com/bekencorp/bdk_alios/blob/release/v3.0/release/doc/BK72XX_SDK_User_Manual-3.0.3.pdf) for building, BIN downloading guides.
+ - step4, download the toolchain on [Toolchain-TODO-link](http://www.bekencorp.com/) and [BIN Downloading Tools](http://www.bekencorp.com/)
+ - step5, seek support on [BBS-TODO-link](http://www.bekencorp.com/), or report bugs on [Github Issue Forum](https://github.com/bekencorp/bdk_alios/issues)
+
+# Support
+ - Report bug or request new feature on [Github Issue Forum](https://github.com/bekencorp/bdk_alios/issues)  
+ - Ask for support or technical discussion on [Beken-TODO](http://www.bekencorp.com/)
+
+# Resource
+
+Here's a quick summary of resources to help you find your way around:
+
+ - [BDK RTT Doc](https://github.com/bekencorp/bdk_alios/tree/release/v3.0/release/doc) - Getting start, API references and other BDK docs.
+ - [TODO](http://www.bekencorp.com/index/services/download.html) - Hardware datasheet
+ - [TODO](http://www.bekencorp.com/index/services/download.html) - Download toolchains and tools
+ - [TODO](http://www.bekencorp.com/) - Purchase demo boards
+ - [Beken Website](http://www.bekencorp.com) - Find more resource about Beken and Beken products.
